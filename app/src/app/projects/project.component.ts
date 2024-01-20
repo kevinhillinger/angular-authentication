@@ -5,11 +5,11 @@ import { ActivatedRoute } from '@angular/router';
 
 import { DeleteDialogComponent } from '../admin/delete-dialog.component';
 import { AccountService } from '../security/account.service';
-import { ProjectService } from '../projects/project.service';
+import { ProjectService } from './project.service';
 import { Utils } from '../utils/utils';
-import { Milestone } from '../projects/milestone';
+import { Milestone } from './milestone';
 import { MilestoneStatus } from './milestone-status';
-import { Project } from '../projects/project';
+import { Project } from './project';
 import { AddEditMilestoneDialogComponent } from './add-edit-milestone-dialog.component';
 import { AuthenticationService } from '../security/authentication/authentication.service';
 

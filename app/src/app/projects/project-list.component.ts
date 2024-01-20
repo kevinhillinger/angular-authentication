@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 import { MatTableDataSource } from '@angular/material/table';
 
-import { ProjectService } from '../projects/project.service';
+import { ProjectService } from './project.service';
 import { Utils } from '../utils/utils';
-import { Project } from '../projects/project';
+import { Project } from './project';
 
 @Component({
   selector: "app-projects",
